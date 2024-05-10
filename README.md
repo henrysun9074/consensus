@@ -1,8 +1,8 @@
 # consensus
-This GitHub page presents a simple workflow for generating consensus sequences from Oxford Nanopore sequencing short reads in **.fastq.gz** format.\
-\ 
-The pipeline starts with **.fastq.gz** short reads and aligns them against a reference sequence in FASTA format using Minimap2 and samtools to produce sorted/indexed **.bam** files.\ 
-\
+This GitHub page presents a simple workflow for generating consensus sequences from Oxford Nanopore sequencing short reads in **.fastq.gz** format.
+
+The pipeline starts with **.fastq.gz** short reads and aligns them against a reference sequence in FASTA format using Minimap2 and samtools to produce sorted/indexed **.bam** files.
+
 Afterwards, **.bam** files are variant called using FreeBayes to produce **.vcf** (variant call) files. Finally, **.vcf** files are zipped into **.vcf.gz** format and BCFtools is used to generate consensus sequences in FASTA format.
 
 ## Dependencies
