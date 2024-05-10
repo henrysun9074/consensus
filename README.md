@@ -22,4 +22,4 @@ This repository comes with .fastq.gz files generated from GridION Nanopore Seque
 This repository contains 2 scripts which can be run from the command line using ./<script_name>.sh. Then run **./mapping.sh** first to create indexed BAM files. Subsequently, run **./variant.sh** to create VCF and FASTA files for each sample. All files should be generated in the **/out** folder. 
 
 ## Contact
-For issues with the pipeline, create an issue on GitHub or email tom.schultz [at] duke.edu or hs32 [at] duke.edu.
+For issues with the pipeline, create an issue on GitHub or email tom.schultz [at] duke.edu or hs325 [at] duke.edu.
